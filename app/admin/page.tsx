@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { getLatestAppointments } from '@/lib/actions/appointment.actions'
 import {DataTable} from '@/components/table/DataTable'
-import {columns, Payment} from '@/components/table/columns'
+import {columns} from '@/components/table/columns'
 
 
 const Admin = async () => {
